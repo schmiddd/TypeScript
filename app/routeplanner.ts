@@ -1,6 +1,10 @@
+import {RouteType} from "./routeType";
+import {Point} from "./point";
+
 const DEGREE_IN_KM = 111.0;
 
-class RoutePlanner {
+
+export class RoutePlanner {
     
     private type: RouteType;
     private start: Point;
