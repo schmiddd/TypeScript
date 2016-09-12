@@ -1,3 +1,4 @@
+import "../typings/index.d.ts"
 import {RouteType} from "./routeType";
 import {Point} from "./point";
 
